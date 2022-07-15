@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="#FFFFFF"
     android:orientation="vertical">
     tools:context=".MainActivity">
 
@@ -21,7 +23,8 @@
     <com.example.ejercicio24breng.Lienzo
         android:id="@+id/viewfirma"
         android:layout_width="match_parent"
-        android:layout_height="383dp"/>
+        android:layout_height="383dp" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -40,10 +43,13 @@
             android:id="@+id/btnguardar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Guardar"/>
+            android:backgroundTint="?android:attr/colorPressedHighlight"
+            android:backgroundTintMode="src_atop"
+            android:text="@string/btn_Guar"/>
 
         <Button
             android:id="@+id/btngaleria"
+            android:backgroundTint="?android:attr/colorPressedHighlight"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/btn_Fir" />

@@ -43,7 +43,7 @@
                 android:layout_alignParentTop="true"
                 android:layout_marginLeft="10dp"
                 android:layout_toRightOf="@+id/txtdescripcion"
-                android:text="Large Text"
+                android:text="@string/txt_lar"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:textSize="18sp" />
         </LinearLayout>
