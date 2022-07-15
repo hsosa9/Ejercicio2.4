@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ejercicio2.4</string>
+    <string name="btn_Guar">GUARDAR</string>
+    <string name="btn_img">FIRMAS</string>
+    <string name="txt_Desc">Descripcion</string>
+    <string name="txt_Firma">Firma</string>
+    <string name="btn_Fir">FIRMAS</string>
+
+    </resources>
